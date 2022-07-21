@@ -88,7 +88,7 @@ button {
   padding: 3px 15px;
 }
 
-h1, h2, .quantity {
+h1, h2 {
   font-size: 20px;
 }
 
@@ -96,7 +96,7 @@ h2 {
   margin-top: 50px;
 }
 
-h3 {
+h3, .quantity {
   font-size: 17px;
 }
 
