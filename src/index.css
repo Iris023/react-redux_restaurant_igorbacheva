@@ -132,7 +132,8 @@ h4 {
   opacity: 0.5;
   font-weight: bold;
   transform: translateY(10px);
-  text-align: center;
+  padding-left: 0; 
+  padding-right: 0;
 }
 
 .backToTopBtn:hover {
@@ -252,5 +253,7 @@ h4 {
 
   .backToTopBtn:hover {
     font-size: 50px;
+    width: 80px;
+    height: 80px;
   }
 }
