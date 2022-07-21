@@ -118,16 +118,56 @@ h4 {
   margin-top: -30px;
 }
 
+.backToTopBtn {
+  position: fixed;
+  bottom: 80px;
+  right: 80px;
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  font-size: 30px;
+  border-radius: 50%;
+  border: 1px solid black;
+  transition: all 0.4s;
+  opacity: 0.5;
+  font-weight: bold;
+  transform: translateY(10px);
+}
+
+.backToTopBtn:hover {
+  background-color: #fdeb6b;
+  opacity: 1;
+  font-size: 50px;
+  border-color: green;
+  color: green;
+  transform: translateY(0);
+}
+
 
 @media all and (max-width: 850px) {
   .dishesImages {
     width: 350px;
+  }
+
+  .backToTopBtn {
+    height: 60px;
+    width: 60px;
+    font-size: 25px;
+  }
+
+  .backToTopBtn:hover {
+    font-size: 35px;
   }
 }
 
 @media all and (max-width: 800px) {
   .App { 
     flex-direction: column;
+  }
+
+  .backToTopBtn {
+    right: 50px;
+    bottom: 70px;
   }
 
   .category_mobile {
@@ -202,4 +242,14 @@ h4 {
     width: 18px;
   }
 
+  .backToTopBtn {
+    right: 30px;
+    width: 80px;
+    height: 80px;
+    font-size: 35px;
+  }
+
+  .backToTopBtn:hover {
+    font-size: 50px;
+  }
 }
