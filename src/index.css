@@ -184,3 +184,17 @@ p,  h3, h4, .quantity {
     justify-content: center;
   }
 }
+
+@media all and (max-width: 500px) {
+  h1, h2, h3, h4, .quantity {
+    font-size: 16px;
+  }
+
+  .categoryButton, button {
+    font-size: 15px;
+  }
+
+  .quantityDiv button {
+    width: 26px;
+  }
+}
