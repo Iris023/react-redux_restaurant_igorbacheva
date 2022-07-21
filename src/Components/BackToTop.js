@@ -22,7 +22,7 @@ export const BackToTop = () => {
 
     return(<div>
         {backToTopButton && (
-            <button onClick={scrollUp} className="backToTopBtn">⬆︎</button>
+            <button onClick={scrollUp} className="backToTopBtn">⇧</button>
         )}
     </div>
     )
