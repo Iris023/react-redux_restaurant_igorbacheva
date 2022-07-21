@@ -66,9 +66,6 @@ body {
   width: 20px;
 }
 
-.icon:hover {
-  width: 30px;
-}
 
 button {
   background-color: #fdeb6b;
@@ -197,4 +194,9 @@ p,  h3, h4, .quantity {
   .quantityDiv button {
     width: 26px;
   }
+
+  .icon:hover {
+    width: 18px;
+  }
+
 }
