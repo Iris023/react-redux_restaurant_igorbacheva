@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 
 export const BackToTop = () => {
     const [backToTopButton, setBackToTopButton] = useState(false);
+
     useEffect(() => {
         window.addEventListener('scroll', () => {
             if (window.scrollY > 150) {
