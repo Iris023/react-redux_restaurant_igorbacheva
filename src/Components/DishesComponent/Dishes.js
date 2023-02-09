@@ -15,7 +15,7 @@ export const Dishes = () => {
                 return selectedCategory === dish.category
             })
             .map((dish, id) => (
-                <EveryDish dish={dish} key={id}/>))}
+                <EveryDish dish={dish} key={dish.id}/>))}
         </div>
     )
 }

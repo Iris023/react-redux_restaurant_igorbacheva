@@ -8,7 +8,7 @@ const EveryCartItem = ({cartItem}) => {
     return(<div className='cartItem'>
         <div>
             <h4>{dishes.name}</h4>
-            <p className='portions'>{cartItem.quantity} portion(s)</p> 
+            <p className='portions'>{cartItem.quantity} {cartItem.quantity >= 2 ? ` portions` : ` portion`}</p> 
             <p>Price: $ {dishes.price * cartItem.quantity} </p>
         </div>
         <span onClick={() => dispatch(removeItemFromCart({cartItemId: cartItem.id}))}>
